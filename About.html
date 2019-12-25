@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About - League Data Retriever</title>
+    <link rel="stylesheet" href="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="wwwroot/css/site.css">
+    <style>
+        .TenPercent {
+            background-color: hsl(0, 0%, 10%) !important;
+        }
+
+        .FifteenPercent {
+            background-color: hsl(0, 0%, 15%) !important;
+        }
+
+        h1 {
+            border-bottom: 2px solid #262626
+        }
+
+        table, th, td {
+            border: 1px solid #333333;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            font-weight: normal;
+        }
+
+        table tr:nth-child(1) {
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="TenPercent">
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark FifteenPercent box-shadow mb-3">
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">League Data Retriever</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="About.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <main role="main" class="pb-3 TenPercent">
+        <h1>League Data Retriever</h1><br>
+
+        <h2>What is this?</h2>
+        <p>League Data Retriever is an automation service that retrieves information about a League of Legends champion in specific positions daily and per-parch.</p>
+
+        <br>
+        <h2>How do I use this?</h2>
+        <p>Simply purchase a <a href="Licenses.html">License</a> on your account and we'll handle everything for you.</p>
+
+        <br>
+        <h2>How are accounts managed?</h2>
+        <p>Each account represents an entire champion mains community. For instance, an account on which Ekko is linked represents the Ekko mains community. Only trusted managers should have access to it, although there's no vulerable data, therefore security on your end shouldn't be that strict. (We do protect your data regardless of their value.)</p>
+
+        <br>
+        <h2>How do licenses work?</h2>
+        <p>Each license applies to the account on which the purchase was made. They stack up with the most recent purchase being applied last. All-time licenses cannot be stacked. Licenses cannot be gifted or migrated.</p>
+
+        <br>
+        <h2>What are the service's features?</h2>
+        <p>While a license is active, the service will be running for the account on which the license is active. It will collect the daily champion stats from u.gg, then store it in the spreadsheet hosted on Google Drive under the service's Google account, and optionally send a message on a selected Discord channel about the data for each rank. Similarly, on a patch's end, the service may collect the final patch data and handle it similarly.</p>
+    </main>
+</div>
+
+<footer class="footer text-light FifteenPercent">
+    <div class="container">
+        &copy; 2019-2020 - League Data Retriever - <a href="About.html">About</a>
+    </div>
+</footer>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

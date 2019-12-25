@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Home Page - League Data Retriever</title>
+    <link rel="stylesheet" href="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="wwwroot/css/site.css">
+    <style>
+        .TenPercent {
+            background-color: hsl(0, 0%, 10%) !important;
+        }
+
+        .FifteenPercent {
+            background-color: hsl(0, 0%, 15%) !important;
+        }
+
+        h1 {
+            border-bottom: 2px solid #262626
+        }
+
+        table, th, td {
+            border: 1px solid #333333;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            font-weight: normal;
+        }
+
+        table tr:nth-child(1) {
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="TenPercent">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark FifteenPercent box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="Index.html">League Data Retriever</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="Index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="About.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3 TenPercent">
+            <meta http-equiv="Refresh" content="0; url=About.html" />
+        </main>
+    </div>
+
+    <footer class="footer text-light FifteenPercent">
+        <div class="container">
+            &copy; 2019-2020 - League Data Retriever - <a href="About.html">About</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
